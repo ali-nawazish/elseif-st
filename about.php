@@ -9,8 +9,8 @@
 <body>
   
   <?php
-      $isMale = true; //if statement true or false
-      $isTall = false; //if statement false or true
+      $isMale = true; //add if statement true or false
+      $isTall = false; //add if statement false or true
       if ($isMale && $isTall){
       echo "You are a tall male";
     } elseif ($isMale && !$isTall) {
